@@ -15,7 +15,7 @@ body{
     font-family: 'Source Sans 3', sans-serif;
 }
 h2{
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 600;
 }
 h5{
@@ -26,7 +26,7 @@ h5{
     letter-spacing: 2px;
 }
 h4{
-    font-size: 32px;
+    font-size: 30px;
 }
 p{
     font-size: 18px;
@@ -34,7 +34,7 @@ p{
 
 header{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-image: url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -385,6 +385,7 @@ header{
 }
 .section3_content i{
     width: 20px;
+    text-align: center;
     color: #008ed6;
 }
 .section3_content p{
@@ -866,5 +867,28 @@ footer p{
 .custom-toggler.navbar-toggler {
     border-color: none !important;
     background-color: #fff;
+}
+
+.owl-carousel{
+    
+}
+.owl-carousel .owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #d2d2d2;
+    border-radius: 50%;
+    margin: 5px;
+    margin-top: 50px;
+}
+.owl-dots .owl-dot.active span{
+    background-color: #008ed6;
+    width: 12px;
+    height: 12px;
 }
 /* section eight */
